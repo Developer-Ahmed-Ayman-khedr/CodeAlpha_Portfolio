@@ -8,6 +8,7 @@
 
 img {
     width: 100%;
+    height: 100%;
     display: inline-block;
 }
 
@@ -27,7 +28,8 @@ a {
 }
 
 body {
-    font-family: "Poppins-Regular", "Poppins-Bold", "Poppins-SemiBold";
+    background-color: #0A1226;
+    color: #FFFFFF;
 }
 
 button {
@@ -61,8 +63,6 @@ button:hover::before {
     justify-content: center;
     gap: 5%;
     align-items: center;
-    background-color: #0A1226;
-    color: #FFFFFF;
 }
 
 /* start content section */
@@ -87,7 +87,9 @@ button:hover::before {
 }
 
 .hero .container .content h1 span {
-    color: #8C7BFF;
+    background-image: linear-gradient(90deg, rgba(90, 158, 255, 1) 0%, rgba(141, 124, 255, 1) 50%, rgba(172, 74, 255, 1) 100%);
+    background-clip: text;
+    color: transparent;
 }
 
 .hero .container .content .intro {
@@ -150,7 +152,7 @@ button:hover::before {
     gap: 20px;
 }
 
-.hero .container .nav ul li a{
+.hero .container .nav ul li a {
     font-size: 20px;
     color: #90A1B9;
 }
@@ -158,3 +160,94 @@ button:hover::before {
 /* end nav section */
 
 /* end hero section */
+
+/* start about me section */
+
+.aboutMe .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15%;
+    height: 50vh;
+    margin-bottom: 600px;
+}
+
+.aboutMe .container h2 {
+    font-size: 45px;
+    position: relative;
+}
+
+.aboutMe .container h2::before {
+    content: "";
+    width: 50%;
+    height: 10%;
+    background: #5A9EFF;
+    background: linear-gradient(90deg, rgba(90, 158, 255, 1) 0%, rgba(141, 124, 255, 1) 50%, rgba(172, 74, 255, 1) 100%);
+    position: absolute;
+    bottom: -20%;
+    left: 25%;
+}
+
+/* start content section */
+
+.aboutMe .container .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* gap: 10%; */
+}
+
+.aboutMe .container .content .img {
+    width: 40%;
+    height: 600px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.aboutMe .container .content p {
+    width: 45%;
+    color: #CAD5D7;
+    font-size: 18px;
+}
+
+/* end content section */
+
+/* start cards section */
+
+.aboutMe .container .cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.aboutMe .container .cards .card {
+    background-color: #151F33;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 10px;
+    border-radius: 15px;
+}
+
+.aboutMe .container .cards .card .icon {
+    background-color: #162847;
+    color: #50A2FF;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 50px;
+    padding: 10px;
+}
+
+.aboutMe .container .cards .card h3 {
+    font-size: larger;
+}
+
+.aboutMe .container .cards .card p {
+    color: #8798AF;
+}
+
+/* end cards section */
+
+/* end about me section */
