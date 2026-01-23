@@ -174,7 +174,7 @@ button:hover::before {
     align-items: center;
     gap: 15%;
     height: 50vh;
-    margin-bottom: 600px;
+    margin-bottom: 650px;
 }
 
 .aboutMe .container h2 {
@@ -259,8 +259,13 @@ button:hover::before {
 
 /* start skills & technology section */
 
+.skills {
+    background-color: #0d1429;
+    height: 50vh;
+}
+
 .skills .container {
-    margin-bottom: 50px;
+    margin-bottom: 600px;
     display: flex;
     flex-direction: column;
 }
@@ -328,8 +333,12 @@ button:hover::before {
 
 /* start featured projects section */
 
+.featuredProjects {
+    height: 50vh;
+    margin: 100px 0px;
+}
+
 .featuredProjects .container {
-    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
 }
@@ -367,6 +376,7 @@ button:hover::before {
     align-items: flex-start;
     justify-content: space-around;
     flex-direction: column;
+    gap: 20px;
     border: 1px solid #45556C;
     border-radius: 15px;
     max-width: 400px;
@@ -417,7 +427,7 @@ button:hover::before {
     display: flex;
     justify-content: left;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
     margin-bottom: 20px;
 }
 
@@ -425,6 +435,8 @@ button:hover::before {
     font-size: 16px;
     color: #90A1B9;
     transition: 0.3s;
+    display: flex;
+    gap: 10px;
 }
 
 .featuredProjects .container .content .card .cardContent .nav ul li a:hover {
