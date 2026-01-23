@@ -483,8 +483,8 @@ button:hover::before {
 
 .getInTouch .container .content {
     display: flex;
-    align-items:flex-start;
-    justify-content:start;
+    align-items: flex-start;
+    justify-content: start;
     gap: 300px;
 }
 
@@ -570,7 +570,7 @@ button:hover::before {
     border-radius: 15px;
     width: 400px;
     height: 150px;
-    padding:20px 0px 0px 20px;
+    padding: 20px 0px 0px 20px;
     color: #FFFFFF;
 }
 
@@ -591,3 +591,27 @@ button:hover::before {
 /* end form section */
 
 /* end Get In Touch section */
+
+/* start footer section */
+
+.footer .container {
+    text-align: center;
+    color: #90A1B9;
+    padding: 50px;
+    position: relative;
+}
+
+.footer .container::before {
+    content: "";
+    border-top: 1px solid #1D293D;
+    border-bottom: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+    width: 70%;
+    transform: translateX(20%);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* end footer section */
