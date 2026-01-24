@@ -585,6 +585,7 @@ button:hover::before {
     height: 60px;
     font-size: 20px;
     outline: none;
+    border: none;
     border-radius: 15px;
 }
 
